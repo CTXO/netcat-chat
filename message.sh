@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PROMPTS="echo What is yout name?   1>&2 \n
 read name \n
 echo Type your messages 1>&2 \n
