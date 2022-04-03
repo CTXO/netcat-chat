@@ -12,8 +12,8 @@ echo -e \"\e[2A\" 1>&2 \n
 MY_COLOR=\"\e[1;34m\" \n
 YOUR_COLOR=\"\e[1;32m\" \n
 NORMAL_COLOR=\"\e[0m\" \n
-echo -e \"\$YOUR_COLOR[\$name \$(date +%r)\b]: \$message\$NORMAL_COLOR\" \n
-echo -e \"\$MY_COLOR[You \$(date +%r)\b]: \$message\$NORMAL_COLOR\" 1>&2\n
+echo -e \"\$YOUR_COLOR[\$name \$(date +\"%H:%M %d-%m-%y\")]: \$message\$NORMAL_COLOR\" \n
+echo -e \"\$MY_COLOR[You \$(date +\"%H:%M %d-%m-%y\")]: \$message\$NORMAL_COLOR\" 1>&2\n
 
 done\n"
 
